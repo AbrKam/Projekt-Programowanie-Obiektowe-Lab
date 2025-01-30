@@ -16,5 +16,15 @@ namespace Projekt_w69758_GL01_3IIZ
         {
             InitializeComponent();
         }
+
+        private void Visits_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void AnimalSepciesTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
