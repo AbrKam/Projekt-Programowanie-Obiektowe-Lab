@@ -17,9 +17,11 @@ namespace Projekt_w69758_GL01_3IIZ
             InitializeComponent();
         }
 
+        // animal add button
         private void button1_Click(object sender, EventArgs e)
         {
-
+            Form dataWindow = new EnterAnimalInfoPopUp();
+            dataWindow.Show();
         }
 
         private void Animals_Load(object sender, EventArgs e)
