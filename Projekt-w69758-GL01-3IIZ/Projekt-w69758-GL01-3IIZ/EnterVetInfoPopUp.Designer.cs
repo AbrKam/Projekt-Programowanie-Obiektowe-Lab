@@ -39,6 +39,7 @@
             button1 = new Button();
             label1 = new Label();
             textBox1 = new TextBox();
+            label2 = new Label();
             SuspendLayout();
             // 
             // OwnerEmail
@@ -135,11 +136,22 @@
             textBox1.Size = new Size(114, 27);
             textBox1.TabIndex = 56;
             // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Segoe UI", 15F);
+            label2.Location = new Point(12, 9);
+            label2.Name = "label2";
+            label2.Size = new Size(61, 35);
+            label2.TabIndex = 58;
+            label2.Text = "Vets";
+            // 
             // EnterVetInfoPopUp
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 552);
+            Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(textBox1);
             Controls.Add(button1);
@@ -170,5 +182,6 @@
         private Button button1;
         private Label label1;
         private TextBox textBox1;
+        private Label label2;
     }
 }

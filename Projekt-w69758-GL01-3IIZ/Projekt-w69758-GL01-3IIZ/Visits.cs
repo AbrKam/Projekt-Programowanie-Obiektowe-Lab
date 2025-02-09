@@ -32,5 +32,16 @@ namespace Projekt_w69758_GL01_3IIZ
             Form visitData = new EnterVisitInfoPopUp();
             visitData.Show();
         }
+
+        private void EditVisitButton_Click(object sender, EventArgs e)
+        {
+            Form visitData = new EnterVisitInfoPopUp();
+            visitData.Show();
+        }
+
+        private void DeleteVisitButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

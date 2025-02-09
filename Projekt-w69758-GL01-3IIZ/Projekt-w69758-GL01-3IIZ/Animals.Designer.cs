@@ -30,9 +30,9 @@
         {
             label1 = new Label();
             dataGridView1 = new DataGridView();
-            button2 = new Button();
-            AnimalAddButton = new Button();
-            button3 = new Button();
+            EditAnimalButton = new Button();
+            AddAnimalButton = new Button();
+            DeleteAnimalButton = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
@@ -56,44 +56,46 @@
             dataGridView1.Size = new Size(812, 360);
             dataGridView1.TabIndex = 1;
             // 
-            // button2
+            // EditAnimalButton
             // 
-            button2.Location = new Point(409, 24);
-            button2.Margin = new Padding(3, 4, 3, 4);
-            button2.Name = "button2";
-            button2.Size = new Size(150, 63);
-            button2.TabIndex = 3;
-            button2.Text = "Edit";
-            button2.UseVisualStyleBackColor = true;
+            EditAnimalButton.Location = new Point(409, 24);
+            EditAnimalButton.Margin = new Padding(3, 4, 3, 4);
+            EditAnimalButton.Name = "EditAnimalButton";
+            EditAnimalButton.Size = new Size(150, 63);
+            EditAnimalButton.TabIndex = 3;
+            EditAnimalButton.Text = "Edit";
+            EditAnimalButton.UseVisualStyleBackColor = true;
+            EditAnimalButton.Click += EditAnimalButton_Click;
             // 
-            // AnimalAddButton
+            // AddAnimalButton
             // 
-            AnimalAddButton.Location = new Point(225, 24);
-            AnimalAddButton.Margin = new Padding(3, 4, 3, 4);
-            AnimalAddButton.Name = "AnimalAddButton";
-            AnimalAddButton.Size = new Size(150, 63);
-            AnimalAddButton.TabIndex = 4;
-            AnimalAddButton.Text = "Add";
-            AnimalAddButton.UseVisualStyleBackColor = true;
-            AnimalAddButton.Click += button1_Click;
+            AddAnimalButton.Location = new Point(225, 24);
+            AddAnimalButton.Margin = new Padding(3, 4, 3, 4);
+            AddAnimalButton.Name = "AddAnimalButton";
+            AddAnimalButton.Size = new Size(150, 63);
+            AddAnimalButton.TabIndex = 4;
+            AddAnimalButton.Text = "Add";
+            AddAnimalButton.UseVisualStyleBackColor = true;
+            AddAnimalButton.Click += AddAnimalButton_Click;
             // 
-            // button3
+            // DeleteAnimalButton
             // 
-            button3.Location = new Point(603, 24);
-            button3.Margin = new Padding(3, 4, 3, 4);
-            button3.Name = "button3";
-            button3.Size = new Size(150, 63);
-            button3.TabIndex = 5;
-            button3.Text = "Delete";
-            button3.UseVisualStyleBackColor = true;
+            DeleteAnimalButton.Location = new Point(603, 24);
+            DeleteAnimalButton.Margin = new Padding(3, 4, 3, 4);
+            DeleteAnimalButton.Name = "DeleteAnimalButton";
+            DeleteAnimalButton.Size = new Size(150, 63);
+            DeleteAnimalButton.TabIndex = 5;
+            DeleteAnimalButton.Text = "Delete";
+            DeleteAnimalButton.UseVisualStyleBackColor = true;
+            DeleteAnimalButton.Click += DeleteAnimalButton_Click;
             // 
             // Animals
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            Controls.Add(button3);
-            Controls.Add(AnimalAddButton);
-            Controls.Add(button2);
+            Controls.Add(DeleteAnimalButton);
+            Controls.Add(AddAnimalButton);
+            Controls.Add(EditAnimalButton);
             Controls.Add(dataGridView1);
             Controls.Add(label1);
             Margin = new Padding(3, 4, 3, 4);
@@ -109,8 +111,8 @@
 
         private Label label1;
         private DataGridView dataGridView1;
-        private Button button2;
-        private Button AnimalAddButton;
-        private Button button3;
+        private Button EditAnimalButton;
+        private Button AddAnimalButton;
+        private Button DeleteAnimalButton;
     }
 }
