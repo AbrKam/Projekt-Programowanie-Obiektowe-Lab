@@ -11,6 +11,7 @@ namespace Projekt_w69758_GL01_3IIZ.Models
     {
         public int Id { get; set; }
         public int VisitId {  get; set; }
+        public Visit? Visit {  get; set; }
         public string? PaymentMethod { get; set; } = "";
         public decimal? Cost { get; set; } = null;
         public DateTime? Date { get; set; } = null;

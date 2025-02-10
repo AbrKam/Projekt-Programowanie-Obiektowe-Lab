@@ -14,6 +14,8 @@ namespace Projekt_w69758_GL01_3IIZ.Models
         public string? Description { get; set; } = "";
         public DateTime Data {  get; set; }
         public int VetId { get; set; }
+        public Vet? Vet { get; set; }
         public int AnimalId { get; set; }
+        public Animal? Animal { get; set; }
     }
 }

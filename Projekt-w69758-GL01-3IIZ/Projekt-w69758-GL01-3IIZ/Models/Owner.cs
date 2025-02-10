@@ -13,5 +13,6 @@ namespace Projekt_w69758_GL01_3IIZ.Models
         public string? LastName { get; set; } = "";
         public string? TelephoneNumber { get; set; } = "";
         public string? Email { get; set; } = "";
+        public List<Animal>? Animals { get; set; }
     }
 }
