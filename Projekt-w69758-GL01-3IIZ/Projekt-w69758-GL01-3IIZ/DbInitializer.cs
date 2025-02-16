@@ -11,6 +11,9 @@ namespace Projekt_w69758_GL01_3IIZ
     {
         public static void Initialize(DBManager context)
         {
+
+            context.Database.EnsureCreated();
+
             if (!context.Owners.Any())
             {
                 context.Owners.AddRange(

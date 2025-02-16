@@ -32,19 +32,18 @@
             DeleteVisitButton = new Button();
             AddVisitButton = new Button();
             EditVisitButton = new Button();
-            dataGridView1 = new DataGridView();
+            VisitDataGrid = new DataGridView();
             label1 = new Label();
             contextMenuStrip1 = new ContextMenuStrip(components);
             contextMenuStrip2 = new ContextMenuStrip(components);
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)VisitDataGrid).BeginInit();
             SuspendLayout();
             // 
             // DeleteVisitButton
             // 
-            DeleteVisitButton.Location = new Point(605, 34);
-            DeleteVisitButton.Margin = new Padding(3, 4, 3, 4);
+            DeleteVisitButton.Location = new Point(529, 26);
             DeleteVisitButton.Name = "DeleteVisitButton";
-            DeleteVisitButton.Size = new Size(150, 63);
+            DeleteVisitButton.Size = new Size(131, 47);
             DeleteVisitButton.TabIndex = 28;
             DeleteVisitButton.Text = "Delete";
             DeleteVisitButton.UseVisualStyleBackColor = true;
@@ -52,10 +51,9 @@
             // 
             // AddVisitButton
             // 
-            AddVisitButton.Location = new Point(227, 34);
-            AddVisitButton.Margin = new Padding(3, 4, 3, 4);
+            AddVisitButton.Location = new Point(199, 26);
             AddVisitButton.Name = "AddVisitButton";
-            AddVisitButton.Size = new Size(150, 63);
+            AddVisitButton.Size = new Size(131, 47);
             AddVisitButton.TabIndex = 27;
             AddVisitButton.Text = "Add";
             AddVisitButton.UseVisualStyleBackColor = true;
@@ -63,32 +61,30 @@
             // 
             // EditVisitButton
             // 
-            EditVisitButton.Location = new Point(411, 34);
-            EditVisitButton.Margin = new Padding(3, 4, 3, 4);
+            EditVisitButton.Location = new Point(360, 26);
             EditVisitButton.Name = "EditVisitButton";
-            EditVisitButton.Size = new Size(150, 63);
+            EditVisitButton.Size = new Size(131, 47);
             EditVisitButton.TabIndex = 26;
             EditVisitButton.Text = "Edit";
             EditVisitButton.UseVisualStyleBackColor = true;
             EditVisitButton.Click += EditVisitButton_Click;
             // 
-            // dataGridView1
+            // VisitDataGrid
             // 
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(25, 128);
-            dataGridView1.Margin = new Padding(3, 4, 3, 4);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(812, 360);
-            dataGridView1.TabIndex = 25;
+            VisitDataGrid.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            VisitDataGrid.Location = new Point(22, 96);
+            VisitDataGrid.Name = "VisitDataGrid";
+            VisitDataGrid.RowHeadersWidth = 51;
+            VisitDataGrid.Size = new Size(710, 270);
+            VisitDataGrid.TabIndex = 25;
             // 
             // label1
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 15F);
-            label1.Location = new Point(24, 25);
+            label1.Location = new Point(21, 19);
             label1.Name = "label1";
-            label1.Size = new Size(73, 35);
+            label1.Size = new Size(57, 28);
             label1.TabIndex = 24;
             label1.Text = "Visits";
             // 
@@ -106,18 +102,17 @@
             // 
             // Visits
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             Controls.Add(DeleteVisitButton);
             Controls.Add(AddVisitButton);
             Controls.Add(EditVisitButton);
-            Controls.Add(dataGridView1);
+            Controls.Add(VisitDataGrid);
             Controls.Add(label1);
-            Margin = new Padding(3, 4, 3, 4);
             Name = "Visits";
-            Size = new Size(913, 533);
+            Size = new Size(799, 400);
             Load += Visits_Load;
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)VisitDataGrid).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -126,7 +121,7 @@
         private Button DeleteVisitButton;
         private Button AddVisitButton;
         private Button EditVisitButton;
-        private DataGridView dataGridView1;
+        private DataGridView VisitDataGrid;
         private Label label1;
         private ContextMenuStrip contextMenuStrip1;
         private ContextMenuStrip contextMenuStrip2;

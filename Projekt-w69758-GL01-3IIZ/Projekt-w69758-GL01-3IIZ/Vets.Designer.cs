@@ -31,17 +31,16 @@
             DeleteVetButton = new Button();
             AddVetButton = new Button();
             EditVetButton = new Button();
-            dataGridView1 = new DataGridView();
+            VetDataGrid = new DataGridView();
             label1 = new Label();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)VetDataGrid).BeginInit();
             SuspendLayout();
             // 
             // DeleteVetButton
             // 
-            DeleteVetButton.Location = new Point(630, 37);
-            DeleteVetButton.Margin = new Padding(3, 4, 3, 4);
+            DeleteVetButton.Location = new Point(551, 28);
             DeleteVetButton.Name = "DeleteVetButton";
-            DeleteVetButton.Size = new Size(150, 63);
+            DeleteVetButton.Size = new Size(131, 47);
             DeleteVetButton.TabIndex = 28;
             DeleteVetButton.Text = "Delete";
             DeleteVetButton.UseVisualStyleBackColor = true;
@@ -49,10 +48,9 @@
             // 
             // AddVetButton
             // 
-            AddVetButton.Location = new Point(198, 37);
-            AddVetButton.Margin = new Padding(3, 4, 3, 4);
+            AddVetButton.Location = new Point(173, 28);
             AddVetButton.Name = "AddVetButton";
-            AddVetButton.Size = new Size(150, 63);
+            AddVetButton.Size = new Size(131, 47);
             AddVetButton.TabIndex = 27;
             AddVetButton.Text = "Add";
             AddVetButton.UseVisualStyleBackColor = true;
@@ -60,47 +58,47 @@
             // 
             // EditVetButton
             // 
-            EditVetButton.Location = new Point(410, 37);
-            EditVetButton.Margin = new Padding(3, 4, 3, 4);
+            EditVetButton.Location = new Point(359, 28);
             EditVetButton.Name = "EditVetButton";
-            EditVetButton.Size = new Size(150, 63);
+            EditVetButton.Size = new Size(131, 47);
             EditVetButton.TabIndex = 26;
             EditVetButton.Text = "Edit";
             EditVetButton.UseVisualStyleBackColor = true;
             EditVetButton.Click += EditVetButton_Click;
             // 
-            // dataGridView1
+            // VetDataGrid
             // 
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(25, 128);
-            dataGridView1.Margin = new Padding(3, 4, 3, 4);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(812, 360);
-            dataGridView1.TabIndex = 25;
+            VetDataGrid.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            VetDataGrid.Location = new Point(22, 96);
+            VetDataGrid.Name = "VetDataGrid";
+            VetDataGrid.RowHeadersWidth = 51;
+            VetDataGrid.Size = new Size(710, 270);
+            VetDataGrid.TabIndex = 25;
             // 
             // label1
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 15F);
-            label1.Location = new Point(83, 37);
+            label1.Location = new Point(73, 28);
             label1.Name = "label1";
-            label1.Size = new Size(61, 35);
+            label1.Size = new Size(48, 28);
             label1.TabIndex = 24;
             label1.Text = "Vets";
             // 
             // Vets
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             Controls.Add(DeleteVetButton);
             Controls.Add(AddVetButton);
             Controls.Add(EditVetButton);
-            Controls.Add(dataGridView1);
+            Controls.Add(VetDataGrid);
             Controls.Add(label1);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "Vets";
-            Size = new Size(913, 533);
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            Size = new Size(799, 400);
+            Load += Vets_Load;
+            ((System.ComponentModel.ISupportInitialize)VetDataGrid).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -109,7 +107,7 @@
         private Button DeleteVetButton;
         private Button AddVetButton;
         private Button EditVetButton;
-        private DataGridView dataGridView1;
+        private DataGridView VetDataGrid;
         private Label label1;
     }
 }
