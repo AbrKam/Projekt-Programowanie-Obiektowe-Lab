@@ -30,7 +30,7 @@ namespace Projekt_w69758_GL01_3IIZ
         private void AddAnimalButton_Click(object sender, EventArgs e)
         {
             Form dataWindow = new EnterAnimalInfoPopUp();
-            dataWindow.Show();
+            dataWindow.Show();   
         }
 
         private void EditAnimalButton_Click(object sender, EventArgs e)
@@ -41,7 +41,7 @@ namespace Projekt_w69758_GL01_3IIZ
 
         private void DeleteAnimalButton_Click(object sender, EventArgs e)
         {
-
+            //AnimalDataGrid.SelectedRows.
         }
 
         private void LoadAnimalData(DBManager dbContext)
@@ -54,9 +54,14 @@ namespace Projekt_w69758_GL01_3IIZ
             }
             else
             {
-                MessageBox.Show("Brak danych w zwierząt.");
+                MessageBox.Show("Brak danych zwierząt.");
             }
         }
 
+        internal void RefreshDataGrid(DBManager dbContext)
+        {
+            AnimalDataGrid.DataContext = null;
+            AnimalDataGrid.DataContext = dbContext.Animals.ToList();
+        }
     }
 }

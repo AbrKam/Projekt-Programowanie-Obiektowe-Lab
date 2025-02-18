@@ -81,7 +81,6 @@
             label1.TabIndex = 3;
             label1.Text = "VetManager v.1";
             label1.TextAlign = ContentAlignment.TopCenter;
-            label1.Click += label1_Click;
             // 
             // mainPanel
             // 

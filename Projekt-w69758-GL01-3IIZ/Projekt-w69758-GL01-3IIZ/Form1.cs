@@ -14,11 +14,6 @@ namespace Projekt_w69758_GL01_3IIZ
             vets1.Hide();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         // visits button
         private void button1_Click(object sender, EventArgs e)
         {
@@ -42,6 +37,5 @@ namespace Projekt_w69758_GL01_3IIZ
             animals1.Hide();
             vets1.Show();
         }
-
     }
 }

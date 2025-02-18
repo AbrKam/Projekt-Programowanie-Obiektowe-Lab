@@ -46,120 +46,116 @@
             AnimalBreedTextBox = new TextBox();
             AnimalSepciesTextBox = new TextBox();
             AnimalNameTextBox = new TextBox();
-            button1 = new Button();
+            EnterAnimalInfo = new Button();
             SuspendLayout();
             // 
             // OwnerEmail
             // 
             OwnerEmail.AutoSize = true;
-            OwnerEmail.Location = new Point(372, 264);
+            OwnerEmail.Location = new Point(326, 198);
             OwnerEmail.Name = "OwnerEmail";
-            OwnerEmail.Size = new Size(110, 20);
+            OwnerEmail.Size = new Size(87, 15);
             OwnerEmail.TabIndex = 41;
             OwnerEmail.Text = "E-mail address:";
             // 
             // OwnerTelNumber
             // 
             OwnerTelNumber.AutoSize = true;
-            OwnerTelNumber.Location = new Point(346, 205);
+            OwnerTelNumber.Location = new Point(303, 154);
             OwnerTelNumber.Name = "OwnerTelNumber";
-            OwnerTelNumber.Size = new Size(136, 20);
+            OwnerTelNumber.Size = new Size(109, 15);
             OwnerTelNumber.TabIndex = 40;
             OwnerTelNumber.Text = "Telephone number:";
             // 
             // OwnerLastName
             // 
             OwnerLastName.AutoSize = true;
-            OwnerLastName.Location = new Point(403, 148);
+            OwnerLastName.Location = new Point(353, 111);
             OwnerLastName.Name = "OwnerLastName";
-            OwnerLastName.Size = new Size(79, 20);
+            OwnerLastName.Size = new Size(64, 15);
             OwnerLastName.TabIndex = 39;
             OwnerLastName.Text = "Last name:";
             // 
             // OwnerFirstName
             // 
             OwnerFirstName.AutoSize = true;
-            OwnerFirstName.Location = new Point(403, 96);
+            OwnerFirstName.Location = new Point(353, 72);
             OwnerFirstName.Name = "OwnerFirstName";
-            OwnerFirstName.Size = new Size(80, 20);
+            OwnerFirstName.Size = new Size(65, 15);
             OwnerFirstName.TabIndex = 38;
             OwnerFirstName.Text = "First name:";
             // 
             // AnimalAge
             // 
             AnimalAge.AutoSize = true;
-            AnimalAge.Location = new Point(66, 264);
+            AnimalAge.Location = new Point(58, 198);
             AnimalAge.Name = "AnimalAge";
-            AnimalAge.Size = new Size(39, 20);
+            AnimalAge.Size = new Size(31, 15);
             AnimalAge.TabIndex = 37;
             AnimalAge.Text = "Age:";
             // 
             // AnimalBreed
             // 
             AnimalBreed.AutoSize = true;
-            AnimalBreed.Location = new Point(54, 205);
+            AnimalBreed.Location = new Point(47, 154);
             AnimalBreed.Name = "AnimalBreed";
-            AnimalBreed.Size = new Size(51, 20);
+            AnimalBreed.Size = new Size(40, 15);
             AnimalBreed.TabIndex = 36;
             AnimalBreed.Text = "Breed:";
             // 
             // AnimalSpecies
             // 
             AnimalSpecies.AutoSize = true;
-            AnimalSpecies.Location = new Point(43, 151);
+            AnimalSpecies.Location = new Point(38, 113);
             AnimalSpecies.Name = "AnimalSpecies";
-            AnimalSpecies.Size = new Size(62, 20);
+            AnimalSpecies.Size = new Size(49, 15);
             AnimalSpecies.TabIndex = 35;
             AnimalSpecies.Text = "Species:";
             // 
             // AnimalName
             // 
             AnimalName.AutoSize = true;
-            AnimalName.Location = new Point(53, 96);
+            AnimalName.Location = new Point(46, 72);
             AnimalName.Name = "AnimalName";
-            AnimalName.Size = new Size(52, 20);
+            AnimalName.Size = new Size(42, 15);
             AnimalName.TabIndex = 34;
             AnimalName.Text = "Name:";
             // 
             // OwnerEmailTextBox
             // 
-            OwnerEmailTextBox.Location = new Point(494, 257);
-            OwnerEmailTextBox.Margin = new Padding(3, 4, 3, 4);
+            OwnerEmailTextBox.Location = new Point(432, 193);
             OwnerEmailTextBox.Name = "OwnerEmailTextBox";
-            OwnerEmailTextBox.Size = new Size(114, 27);
+            OwnerEmailTextBox.Size = new Size(100, 23);
             OwnerEmailTextBox.TabIndex = 33;
             // 
             // OwnerNumberTextBox
             // 
-            OwnerNumberTextBox.Location = new Point(494, 198);
-            OwnerNumberTextBox.Margin = new Padding(3, 4, 3, 4);
+            OwnerNumberTextBox.Location = new Point(432, 148);
             OwnerNumberTextBox.Name = "OwnerNumberTextBox";
-            OwnerNumberTextBox.Size = new Size(114, 27);
+            OwnerNumberTextBox.Size = new Size(100, 23);
             OwnerNumberTextBox.TabIndex = 32;
             // 
             // OwnerLNameTextBox
             // 
-            OwnerLNameTextBox.Location = new Point(494, 144);
-            OwnerLNameTextBox.Margin = new Padding(3, 4, 3, 4);
+            OwnerLNameTextBox.Location = new Point(432, 108);
             OwnerLNameTextBox.Name = "OwnerLNameTextBox";
-            OwnerLNameTextBox.Size = new Size(114, 27);
+            OwnerLNameTextBox.Size = new Size(100, 23);
             OwnerLNameTextBox.TabIndex = 31;
             // 
             // OwnerFNameTextBox
             // 
-            OwnerFNameTextBox.Location = new Point(494, 89);
-            OwnerFNameTextBox.Margin = new Padding(3, 4, 3, 4);
+            OwnerFNameTextBox.Location = new Point(432, 67);
             OwnerFNameTextBox.Name = "OwnerFNameTextBox";
-            OwnerFNameTextBox.Size = new Size(114, 27);
+            OwnerFNameTextBox.Size = new Size(100, 23);
             OwnerFNameTextBox.TabIndex = 30;
             // 
             // label3
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 15F);
-            label3.Location = new Point(475, 34);
+            label3.Location = new Point(416, 26);
             label3.Name = "label3";
-            label3.Size = new Size(138, 35);
+            label3.Size = new Size(108, 28);
             label3.TabIndex = 29;
             label3.Text = "Owner info";
             // 
@@ -167,59 +163,57 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 15F);
-            label2.Location = new Point(97, 34);
+            label2.Location = new Point(85, 26);
             label2.Name = "label2";
-            label2.Size = new Size(142, 35);
+            label2.Size = new Size(112, 28);
             label2.TabIndex = 28;
             label2.Text = "Animal info";
             // 
             // AnimalAgeTextBox
             // 
-            AnimalAgeTextBox.Location = new Point(111, 257);
-            AnimalAgeTextBox.Margin = new Padding(3, 4, 3, 4);
+            AnimalAgeTextBox.Location = new Point(97, 193);
             AnimalAgeTextBox.Name = "AnimalAgeTextBox";
-            AnimalAgeTextBox.Size = new Size(114, 27);
+            AnimalAgeTextBox.Size = new Size(100, 23);
             AnimalAgeTextBox.TabIndex = 27;
             // 
             // AnimalBreedTextBox
             // 
-            AnimalBreedTextBox.Location = new Point(111, 198);
-            AnimalBreedTextBox.Margin = new Padding(3, 4, 3, 4);
+            AnimalBreedTextBox.Location = new Point(97, 148);
             AnimalBreedTextBox.Name = "AnimalBreedTextBox";
-            AnimalBreedTextBox.Size = new Size(114, 27);
+            AnimalBreedTextBox.Size = new Size(100, 23);
             AnimalBreedTextBox.TabIndex = 26;
             // 
             // AnimalSepciesTextBox
             // 
-            AnimalSepciesTextBox.Location = new Point(111, 144);
-            AnimalSepciesTextBox.Margin = new Padding(3, 4, 3, 4);
+            AnimalSepciesTextBox.Location = new Point(97, 108);
             AnimalSepciesTextBox.Name = "AnimalSepciesTextBox";
-            AnimalSepciesTextBox.Size = new Size(114, 27);
+            AnimalSepciesTextBox.Size = new Size(100, 23);
             AnimalSepciesTextBox.TabIndex = 25;
             // 
             // AnimalNameTextBox
             // 
-            AnimalNameTextBox.Location = new Point(111, 89);
-            AnimalNameTextBox.Margin = new Padding(3, 4, 3, 4);
+            AnimalNameTextBox.Location = new Point(97, 67);
             AnimalNameTextBox.Name = "AnimalNameTextBox";
-            AnimalNameTextBox.Size = new Size(114, 27);
+            AnimalNameTextBox.Size = new Size(100, 23);
             AnimalNameTextBox.TabIndex = 24;
             // 
-            // button1
+            // EnterAnimalInfo
             // 
-            button1.Location = new Point(215, 364);
-            button1.Name = "button1";
-            button1.Size = new Size(287, 121);
-            button1.TabIndex = 42;
-            button1.Text = "Enter";
-            button1.UseVisualStyleBackColor = true;
+            EnterAnimalInfo.Location = new Point(188, 273);
+            EnterAnimalInfo.Margin = new Padding(3, 2, 3, 2);
+            EnterAnimalInfo.Name = "EnterAnimalInfo";
+            EnterAnimalInfo.Size = new Size(251, 91);
+            EnterAnimalInfo.TabIndex = 42;
+            EnterAnimalInfo.Text = "Enter";
+            EnterAnimalInfo.UseVisualStyleBackColor = true;
+            EnterAnimalInfo.Click += EnterAnimalInfo_Click;
             // 
             // EnterAnimalInfoPopUp
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 552);
-            Controls.Add(button1);
+            ClientSize = new Size(700, 414);
+            Controls.Add(EnterAnimalInfo);
             Controls.Add(OwnerEmail);
             Controls.Add(OwnerTelNumber);
             Controls.Add(OwnerLastName);
@@ -238,6 +232,7 @@
             Controls.Add(AnimalBreedTextBox);
             Controls.Add(AnimalSepciesTextBox);
             Controls.Add(AnimalNameTextBox);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "EnterAnimalInfoPopUp";
             Text = "EnterAnimalInfoPopUp";
             ResumeLayout(false);
@@ -264,6 +259,6 @@
         private TextBox AnimalBreedTextBox;
         private TextBox AnimalSepciesTextBox;
         private TextBox AnimalNameTextBox;
-        private Button button1;
+        private Button EnterAnimalInfo;
     }
 }
