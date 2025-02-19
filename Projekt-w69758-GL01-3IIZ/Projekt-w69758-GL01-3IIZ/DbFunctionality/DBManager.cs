@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Projekt_w69758_GL01_3IIZ.Models;
 
-namespace Projekt_w69758_GL01_3IIZ
+namespace Projekt_w69758_GL01_3IIZ.DbFunctionality
 {
-    internal class DBManager: DbContext
+    internal class DBManager : DbContext
     {
-		private readonly string _connectionString = "Data Source=projekt_db.db";
+        private readonly string _connectionString = "Data Source=projekt_db.db";
 
         public DbSet<Animal> Animals { get; set; }
         public DbSet<Owner> Owners { get; set; }

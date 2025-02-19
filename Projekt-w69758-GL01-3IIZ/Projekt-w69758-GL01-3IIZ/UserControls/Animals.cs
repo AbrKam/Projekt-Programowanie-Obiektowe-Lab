@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Microsoft.EntityFrameworkCore;
 using Projekt_w69758_GL01_3IIZ.Models;
+using Projekt_w69758_GL01_3IIZ.DbFunctionality;
 
 namespace Projekt_w69758_GL01_3IIZ
 {
@@ -29,14 +30,28 @@ namespace Projekt_w69758_GL01_3IIZ
 
         private void AddAnimalButton_Click(object sender, EventArgs e)
         {
-            Form dataWindow = new EnterAnimalInfoPopUp();
-            dataWindow.Show();   
+            AddAnimalInfoPopUp dataWindow = new AddAnimalInfoPopUp();
+            dataWindow.DataUpdated += () => RefreshDataGrid(_dBManager);
+            dataWindow.ShowDialog();   
         }
 
         private void EditAnimalButton_Click(object sender, EventArgs e)
         {
-            Form dataWindow = new EnterAnimalInfoPopUp();
-            dataWindow.Show();
+            if (AnimalDataGrid.SelectedRows.Count > 0)
+            {
+                int selectedAnimalId = Convert.ToInt16(AnimalDataGrid.SelectedRows[0].Cells["Id"].Value);
+                Animal? animalToEdit = _dBManager.Animals
+                        .FirstOrDefault(o => o.Id == selectedAnimalId);
+
+                Owner? ownerInfo = _dBManager.Owners.FirstOrDefault(o => o.Id == animalToEdit.Id);
+
+                Form dataWindow = new AddAnimalInfoPopUp(animalToEdit, ownerInfo);
+                dataWindow.Show();
+            }
+            else
+            {
+                MessageBox.Show("To edit you need to select full row.");
+            }
         }
 
         private void DeleteAnimalButton_Click(object sender, EventArgs e)
@@ -60,8 +75,8 @@ namespace Projekt_w69758_GL01_3IIZ
 
         internal void RefreshDataGrid(DBManager dbContext)
         {
-            AnimalDataGrid.DataContext = null;
-            AnimalDataGrid.DataContext = dbContext.Animals.ToList();
+            AnimalDataGrid.DataSource = null;
+            AnimalDataGrid.DataSource = dbContext.Animals.ToList();
         }
     }
 }

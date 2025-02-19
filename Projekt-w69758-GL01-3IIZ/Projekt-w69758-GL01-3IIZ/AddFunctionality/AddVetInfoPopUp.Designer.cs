@@ -1,6 +1,6 @@
 ﻿namespace Projekt_w69758_GL01_3IIZ
 {
-    partial class EnterVetInfoPopUp
+    partial class AddVetInfoPopUp
     {
         /// <summary>
         /// Required designer variable.

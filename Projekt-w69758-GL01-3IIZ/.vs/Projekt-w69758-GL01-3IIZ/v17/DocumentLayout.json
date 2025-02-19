@@ -3,40 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\Kam\\Desktop\\OOP\\OOPLab\\Projekt-Programowanie-Obiektowe-Lab\\Projekt-w69758-GL01-3IIZ\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6434A89F-2D5C-4606-8B67-D940AC54FD97}|Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ.csproj|c:\\users\\kam\\desktop\\oop\\ooplab\\projekt-programowanie-obiektowe-lab\\projekt-w69758-gl01-3iiz\\projekt-w69758-gl01-3iiz\\animals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6434A89F-2D5C-4606-8B67-D940AC54FD97}|Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ.csproj|solutionrelative:projekt-w69758-gl01-3iiz\\animals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6434A89F-2D5C-4606-8B67-D940AC54FD97}|Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ.csproj|c:\\users\\kam\\desktop\\oop\\ooplab\\projekt-programowanie-obiektowe-lab\\projekt-w69758-gl01-3iiz\\projekt-w69758-gl01-3iiz\\addfunctionality\\addanimalinfopopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6434A89F-2D5C-4606-8B67-D940AC54FD97}|Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ.csproj|solutionrelative:projekt-w69758-gl01-3iiz\\addfunctionality\\addanimalinfopopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6434A89F-2D5C-4606-8B67-D940AC54FD97}|Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ.csproj|c:\\users\\kam\\desktop\\oop\\ooplab\\projekt-programowanie-obiektowe-lab\\projekt-w69758-gl01-3iiz\\projekt-w69758-gl01-3iiz\\enteranimalinfopopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6434A89F-2D5C-4606-8B67-D940AC54FD97}|Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ.csproj|solutionrelative:projekt-w69758-gl01-3iiz\\enteranimalinfopopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6434A89F-2D5C-4606-8B67-D940AC54FD97}|Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ.csproj|c:\\users\\kam\\desktop\\oop\\ooplab\\projekt-programowanie-obiektowe-lab\\projekt-w69758-gl01-3iiz\\projekt-w69758-gl01-3iiz\\usercontrols\\animals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6434A89F-2D5C-4606-8B67-D940AC54FD97}|Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ.csproj|solutionrelative:projekt-w69758-gl01-3iiz\\usercontrols\\animals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6434A89F-2D5C-4606-8B67-D940AC54FD97}|Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ.csproj|c:\\users\\kam\\desktop\\oop\\ooplab\\projekt-programowanie-obiektowe-lab\\projekt-w69758-gl01-3iiz\\projekt-w69758-gl01-3iiz\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6434A89F-2D5C-4606-8B67-D940AC54FD97}|Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ.csproj|solutionrelative:projekt-w69758-gl01-3iiz\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6434A89F-2D5C-4606-8B67-D940AC54FD97}|Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ.csproj|c:\\users\\kam\\desktop\\oop\\ooplab\\projekt-programowanie-obiektowe-lab\\projekt-w69758-gl01-3iiz\\projekt-w69758-gl01-3iiz\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6434A89F-2D5C-4606-8B67-D940AC54FD97}|Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ.csproj|solutionrelative:projekt-w69758-gl01-3iiz\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6434A89F-2D5C-4606-8B67-D940AC54FD97}|Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ.csproj|c:\\users\\kam\\desktop\\oop\\ooplab\\projekt-programowanie-obiektowe-lab\\projekt-w69758-gl01-3iiz\\projekt-w69758-gl01-3iiz\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6434A89F-2D5C-4606-8B67-D940AC54FD97}|Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ.csproj|solutionrelative:projekt-w69758-gl01-3iiz\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{6434A89F-2D5C-4606-8B67-D940AC54FD97}|Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ.csproj|c:\\users\\kam\\desktop\\oop\\ooplab\\projekt-programowanie-obiektowe-lab\\projekt-w69758-gl01-3iiz\\projekt-w69758-gl01-3iiz\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6434A89F-2D5C-4606-8B67-D940AC54FD97}|Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ.csproj|solutionrelative:projekt-w69758-gl01-3iiz\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6434A89F-2D5C-4606-8B67-D940AC54FD97}|Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ.csproj|c:\\users\\kam\\desktop\\oop\\ooplab\\projekt-programowanie-obiektowe-lab\\projekt-w69758-gl01-3iiz\\projekt-w69758-gl01-3iiz\\dbmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6434A89F-2D5C-4606-8B67-D940AC54FD97}|Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ.csproj|solutionrelative:projekt-w69758-gl01-3iiz\\dbmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6434A89F-2D5C-4606-8B67-D940AC54FD97}|Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ.csproj|c:\\users\\kam\\desktop\\oop\\ooplab\\projekt-programowanie-obiektowe-lab\\projekt-w69758-gl01-3iiz\\projekt-w69758-gl01-3iiz\\addfunctionality\\addvisitinfopopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6434A89F-2D5C-4606-8B67-D940AC54FD97}|Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ.csproj|solutionrelative:projekt-w69758-gl01-3iiz\\addfunctionality\\addvisitinfopopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6434A89F-2D5C-4606-8B67-D940AC54FD97}|Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ.csproj|c:\\users\\kam\\desktop\\oop\\ooplab\\projekt-programowanie-obiektowe-lab\\projekt-w69758-gl01-3iiz\\projekt-w69758-gl01-3iiz\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6434A89F-2D5C-4606-8B67-D940AC54FD97}|Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ.csproj|solutionrelative:projekt-w69758-gl01-3iiz\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6434A89F-2D5C-4606-8B67-D940AC54FD97}|Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ.csproj|c:\\users\\kam\\desktop\\oop\\ooplab\\projekt-programowanie-obiektowe-lab\\projekt-w69758-gl01-3iiz\\projekt-w69758-gl01-3iiz\\addfunctionality\\addvetinfopopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6434A89F-2D5C-4606-8B67-D940AC54FD97}|Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ.csproj|solutionrelative:projekt-w69758-gl01-3iiz\\addfunctionality\\addvetinfopopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6434A89F-2D5C-4606-8B67-D940AC54FD97}|Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ.csproj|c:\\users\\kam\\desktop\\oop\\ooplab\\projekt-programowanie-obiektowe-lab\\projekt-w69758-gl01-3iiz\\projekt-w69758-gl01-3iiz\\addfunctionality\\addvetinfopopup.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6434A89F-2D5C-4606-8B67-D940AC54FD97}|Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ.csproj|solutionrelative:projekt-w69758-gl01-3iiz\\addfunctionality\\addvetinfopopup.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6434A89F-2D5C-4606-8B67-D940AC54FD97}|Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ.csproj|c:\\users\\kam\\desktop\\oop\\ooplab\\projekt-programowanie-obiektowe-lab\\projekt-w69758-gl01-3iiz\\projekt-w69758-gl01-3iiz\\models\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6434A89F-2D5C-4606-8B67-D940AC54FD97}|Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ.csproj|solutionrelative:projekt-w69758-gl01-3iiz\\models\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6434A89F-2D5C-4606-8B67-D940AC54FD97}|Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ.csproj|c:\\users\\kam\\desktop\\oop\\ooplab\\projekt-programowanie-obiektowe-lab\\projekt-w69758-gl01-3iiz\\projekt-w69758-gl01-3iiz\\models\\owner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6434A89F-2D5C-4606-8B67-D940AC54FD97}|Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ.csproj|solutionrelative:projekt-w69758-gl01-3iiz\\models\\owner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6434A89F-2D5C-4606-8B67-D940AC54FD97}|Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ.csproj|c:\\users\\kam\\desktop\\oop\\ooplab\\projekt-programowanie-obiektowe-lab\\projekt-w69758-gl01-3iiz\\projekt-w69758-gl01-3iiz\\dbfunctionality\\dbmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6434A89F-2D5C-4606-8B67-D940AC54FD97}|Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ.csproj|solutionrelative:projekt-w69758-gl01-3iiz\\dbfunctionality\\dbmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6434A89F-2D5C-4606-8B67-D940AC54FD97}|Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ.csproj|c:\\users\\kam\\desktop\\oop\\ooplab\\projekt-programowanie-obiektowe-lab\\projekt-w69758-gl01-3iiz\\projekt-w69758-gl01-3iiz\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6434A89F-2D5C-4606-8B67-D940AC54FD97}|Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ.csproj|solutionrelative:projekt-w69758-gl01-3iiz\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6434A89F-2D5C-4606-8B67-D940AC54FD97}|Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ.csproj|C:\\Users\\Kam\\Desktop\\OOP\\OOPLab\\Projekt-Programowanie-Obiektowe-Lab\\Projekt-w69758-GL01-3IIZ\\projekt-w69758-gl01-3iiz\\enteranimalinfopopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{6434A89F-2D5C-4606-8B67-D940AC54FD97}|Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ.csproj|solutionrelative:projekt-w69758-gl01-3iiz\\enteranimalinfopopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6434A89F-2D5C-4606-8B67-D940AC54FD97}|Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ.csproj|C:\\Users\\Kam\\Desktop\\OOP\\OOPLab\\Projekt-Programowanie-Obiektowe-Lab\\Projekt-w69758-GL01-3IIZ\\projekt-w69758-gl01-3iiz\\entervisitinfopopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6434A89F-2D5C-4606-8B67-D940AC54FD97}|Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ.csproj|solutionrelative:projekt-w69758-gl01-3iiz\\entervisitinfopopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6434A89F-2D5C-4606-8B67-D940AC54FD97}|Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ.csproj|C:\\Users\\Kam\\Desktop\\OOP\\OOPLab\\Projekt-Programowanie-Obiektowe-Lab\\Projekt-w69758-GL01-3IIZ\\projekt-w69758-gl01-3iiz\\entervetinfopopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6434A89F-2D5C-4606-8B67-D940AC54FD97}|Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ.csproj|solutionrelative:projekt-w69758-gl01-3iiz\\entervetinfopopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{6434A89F-2D5C-4606-8B67-D940AC54FD97}|Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ.csproj|c:\\users\\kam\\desktop\\oop\\ooplab\\projekt-programowanie-obiektowe-lab\\projekt-w69758-gl01-3iiz\\projekt-w69758-gl01-3iiz\\addfunctionality\\addvisitinfopopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6434A89F-2D5C-4606-8B67-D940AC54FD97}|Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ.csproj|solutionrelative:projekt-w69758-gl01-3iiz\\addfunctionality\\addvisitinfopopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,16 +62,55 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddVisitInfoPopUp.cs",
+              "DocumentMoniker": "C:\\Users\\Kam\\Desktop\\OOP\\OOPLab\\Projekt-Programowanie-Obiektowe-Lab\\Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ\\AddFunctionality\\AddVisitInfoPopUp.cs",
+              "RelativeDocumentMoniker": "Projekt-w69758-GL01-3IIZ\\AddFunctionality\\AddVisitInfoPopUp.cs",
+              "ToolTip": "C:\\Users\\Kam\\Desktop\\OOP\\OOPLab\\Projekt-Programowanie-Obiektowe-Lab\\Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ\\AddFunctionality\\AddVisitInfoPopUp.cs",
+              "RelativeToolTip": "Projekt-w69758-GL01-3IIZ\\AddFunctionality\\AddVisitInfoPopUp.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T19:15:09.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Form1.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Kam\\Desktop\\OOP\\OOPLab\\Projekt-Programowanie-Obiektowe-Lab\\Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ\\Form1.Designer.cs",
-              "RelativeDocumentMoniker": "Projekt-w69758-GL01-3IIZ\\Form1.Designer.cs",
-              "ToolTip": "C:\\Users\\Kam\\Desktop\\OOP\\OOPLab\\Projekt-Programowanie-Obiektowe-Lab\\Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ\\Form1.Designer.cs",
-              "RelativeToolTip": "Projekt-w69758-GL01-3IIZ\\Form1.Designer.cs",
+              "Title": "AddVetInfoPopUp.cs",
+              "DocumentMoniker": "C:\\Users\\Kam\\Desktop\\OOP\\OOPLab\\Projekt-Programowanie-Obiektowe-Lab\\Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ\\AddFunctionality\\AddVetInfoPopUp.cs",
+              "RelativeDocumentMoniker": "Projekt-w69758-GL01-3IIZ\\AddFunctionality\\AddVetInfoPopUp.cs",
+              "ToolTip": "C:\\Users\\Kam\\Desktop\\OOP\\OOPLab\\Projekt-Programowanie-Obiektowe-Lab\\Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ\\AddFunctionality\\AddVetInfoPopUp.cs",
+              "RelativeToolTip": "Projekt-w69758-GL01-3IIZ\\AddFunctionality\\AddVetInfoPopUp.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T19:14:15.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AddVetInfoPopUp.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Kam\\Desktop\\OOP\\OOPLab\\Projekt-Programowanie-Obiektowe-Lab\\Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ\\AddFunctionality\\AddVetInfoPopUp.Designer.cs",
+              "RelativeDocumentMoniker": "Projekt-w69758-GL01-3IIZ\\AddFunctionality\\AddVetInfoPopUp.Designer.cs",
+              "ToolTip": "C:\\Users\\Kam\\Desktop\\OOP\\OOPLab\\Projekt-Programowanie-Obiektowe-Lab\\Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ\\AddFunctionality\\AddVetInfoPopUp.Designer.cs",
+              "RelativeToolTip": "Projekt-w69758-GL01-3IIZ\\AddFunctionality\\AddVetInfoPopUp.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T19:14:08.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MainForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Kam\\Desktop\\OOP\\OOPLab\\Projekt-Programowanie-Obiektowe-Lab\\Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ\\MainForm.Designer.cs",
+              "RelativeDocumentMoniker": "Projekt-w69758-GL01-3IIZ\\MainForm.Designer.cs",
+              "ToolTip": "C:\\Users\\Kam\\Desktop\\OOP\\OOPLab\\Projekt-Programowanie-Obiektowe-Lab\\Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ\\MainForm.Designer.cs",
+              "RelativeToolTip": "Projekt-w69758-GL01-3IIZ\\MainForm.Designer.cs",
               "ViewState": "AgIAADcAAAAAAAAAAAArwFMAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-18T19:15:37.963Z",
@@ -64,37 +119,37 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Kam\\Desktop\\OOP\\OOPLab\\Projekt-Programowanie-Obiektowe-Lab\\Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ\\Form1.cs",
-              "RelativeDocumentMoniker": "Projekt-w69758-GL01-3IIZ\\Form1.cs",
-              "ToolTip": "C:\\Users\\Kam\\Desktop\\OOP\\OOPLab\\Projekt-Programowanie-Obiektowe-Lab\\Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ\\Form1.cs [Design]",
-              "RelativeToolTip": "Projekt-w69758-GL01-3IIZ\\Form1.cs [Design]",
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Kam\\Desktop\\OOP\\OOPLab\\Projekt-Programowanie-Obiektowe-Lab\\Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ\\MainForm.cs",
+              "RelativeDocumentMoniker": "Projekt-w69758-GL01-3IIZ\\MainForm.cs",
+              "ToolTip": "C:\\Users\\Kam\\Desktop\\OOP\\OOPLab\\Projekt-Programowanie-Obiektowe-Lab\\Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ\\MainForm.cs [Design]",
+              "RelativeToolTip": "Projekt-w69758-GL01-3IIZ\\MainForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-18T19:15:36.576Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Animals.cs",
-              "DocumentMoniker": "C:\\Users\\Kam\\Desktop\\OOP\\OOPLab\\Projekt-Programowanie-Obiektowe-Lab\\Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ\\Animals.cs",
-              "RelativeDocumentMoniker": "Projekt-w69758-GL01-3IIZ\\Animals.cs",
-              "ToolTip": "C:\\Users\\Kam\\Desktop\\OOP\\OOPLab\\Projekt-Programowanie-Obiektowe-Lab\\Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ\\Animals.cs",
-              "RelativeToolTip": "Projekt-w69758-GL01-3IIZ\\Animals.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAQwCQAAAAJAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Kam\\Desktop\\OOP\\OOPLab\\Projekt-Programowanie-Obiektowe-Lab\\Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ\\UserControls\\Animals.cs",
+              "RelativeDocumentMoniker": "Projekt-w69758-GL01-3IIZ\\UserControls\\Animals.cs",
+              "ToolTip": "C:\\Users\\Kam\\Desktop\\OOP\\OOPLab\\Projekt-Programowanie-Obiektowe-Lab\\Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ\\UserControls\\Animals.cs",
+              "RelativeToolTip": "Projekt-w69758-GL01-3IIZ\\UserControls\\Animals.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-18T17:58:00.684Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EnterAnimalInfoPopUp.cs",
-              "DocumentMoniker": "C:\\Users\\Kam\\Desktop\\OOP\\OOPLab\\Projekt-Programowanie-Obiektowe-Lab\\Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ\\EnterAnimalInfoPopUp.cs",
-              "RelativeDocumentMoniker": "Projekt-w69758-GL01-3IIZ\\EnterAnimalInfoPopUp.cs",
-              "ToolTip": "C:\\Users\\Kam\\Desktop\\OOP\\OOPLab\\Projekt-Programowanie-Obiektowe-Lab\\Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ\\EnterAnimalInfoPopUp.cs",
-              "RelativeToolTip": "Projekt-w69758-GL01-3IIZ\\EnterAnimalInfoPopUp.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAASAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "AddAnimalInfoPopUp.cs",
+              "DocumentMoniker": "C:\\Users\\Kam\\Desktop\\OOP\\OOPLab\\Projekt-Programowanie-Obiektowe-Lab\\Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ\\AddFunctionality\\AddAnimalInfoPopUp.cs",
+              "RelativeDocumentMoniker": "Projekt-w69758-GL01-3IIZ\\AddFunctionality\\AddAnimalInfoPopUp.cs",
+              "ToolTip": "C:\\Users\\Kam\\Desktop\\OOP\\OOPLab\\Projekt-Programowanie-Obiektowe-Lab\\Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ\\AddFunctionality\\AddAnimalInfoPopUp.cs",
+              "RelativeToolTip": "Projekt-w69758-GL01-3IIZ\\AddFunctionality\\AddAnimalInfoPopUp.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAwwAsAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-17T16:55:36.049Z",
               "EditorCaption": ""
@@ -102,24 +157,24 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\Kam\\Desktop\\OOP\\OOPLab\\Projekt-Programowanie-Obiektowe-Lab\\Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ\\Form1.cs",
-              "RelativeDocumentMoniker": "Projekt-w69758-GL01-3IIZ\\Form1.cs",
-              "ToolTip": "C:\\Users\\Kam\\Desktop\\OOP\\OOPLab\\Projekt-Programowanie-Obiektowe-Lab\\Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ\\Form1.cs",
-              "RelativeToolTip": "Projekt-w69758-GL01-3IIZ\\Form1.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAxwB4AAAAJAAAAAAAAAA==",
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\Kam\\Desktop\\OOP\\OOPLab\\Projekt-Programowanie-Obiektowe-Lab\\Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ\\MainForm.cs",
+              "RelativeDocumentMoniker": "Projekt-w69758-GL01-3IIZ\\MainForm.cs",
+              "ToolTip": "C:\\Users\\Kam\\Desktop\\OOP\\OOPLab\\Projekt-Programowanie-Obiektowe-Lab\\Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ\\MainForm.cs",
+              "RelativeToolTip": "Projekt-w69758-GL01-3IIZ\\MainForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-16T15:16:44.218Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "DBManager.cs",
-              "DocumentMoniker": "C:\\Users\\Kam\\Desktop\\OOP\\OOPLab\\Projekt-Programowanie-Obiektowe-Lab\\Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ\\DBManager.cs",
-              "RelativeDocumentMoniker": "Projekt-w69758-GL01-3IIZ\\DBManager.cs",
-              "ToolTip": "C:\\Users\\Kam\\Desktop\\OOP\\OOPLab\\Projekt-Programowanie-Obiektowe-Lab\\Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ\\DBManager.cs",
-              "RelativeToolTip": "Projekt-w69758-GL01-3IIZ\\DBManager.cs",
+              "DocumentMoniker": "C:\\Users\\Kam\\Desktop\\OOP\\OOPLab\\Projekt-Programowanie-Obiektowe-Lab\\Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ\\DbFunctionality\\DBManager.cs",
+              "RelativeDocumentMoniker": "Projekt-w69758-GL01-3IIZ\\DbFunctionality\\DBManager.cs",
+              "ToolTip": "C:\\Users\\Kam\\Desktop\\OOP\\OOPLab\\Projekt-Programowanie-Obiektowe-Lab\\Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ\\DbFunctionality\\DBManager.cs",
+              "RelativeToolTip": "Projekt-w69758-GL01-3IIZ\\DbFunctionality\\DBManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-09T14:08:31.715Z",
@@ -127,18 +182,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "EnterVisitInfoPopUp.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Kam\\Desktop\\OOP\\OOPLab\\Projekt-Programowanie-Obiektowe-Lab\\Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ\\EnterVisitInfoPopUp.cs",
-              "RelativeDocumentMoniker": "Projekt-w69758-GL01-3IIZ\\EnterVisitInfoPopUp.cs",
-              "ToolTip": "C:\\Users\\Kam\\Desktop\\OOP\\OOPLab\\Projekt-Programowanie-Obiektowe-Lab\\Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ\\EnterVisitInfoPopUp.cs [Design]",
-              "RelativeToolTip": "Projekt-w69758-GL01-3IIZ\\EnterVisitInfoPopUp.cs [Design]",
+              "DocumentIndex": 12,
+              "Title": "AddVisitInfoPopUp.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Kam\\Desktop\\OOP\\OOPLab\\Projekt-Programowanie-Obiektowe-Lab\\Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ\\AddFunctionality\\AddVisitInfoPopUp.cs",
+              "RelativeDocumentMoniker": "Projekt-w69758-GL01-3IIZ\\AddFunctionality\\AddVisitInfoPopUp.cs",
+              "ToolTip": "C:\\Users\\Kam\\Desktop\\OOP\\OOPLab\\Projekt-Programowanie-Obiektowe-Lab\\Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ\\AddFunctionality\\AddVisitInfoPopUp.cs [Design]",
+              "RelativeToolTip": "Projekt-w69758-GL01-3IIZ\\AddFunctionality\\AddVisitInfoPopUp.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T19:13:45.417Z"
+              "WhenOpened": "2025-02-09T19:13:45.417Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "EnterAnimalInfoPopUp.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Kam\\Desktop\\OOP\\OOPLab\\Projekt-Programowanie-Obiektowe-Lab\\Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ\\EnterAnimalInfoPopUp.cs",
               "RelativeDocumentMoniker": "Projekt-w69758-GL01-3IIZ\\EnterAnimalInfoPopUp.cs",
@@ -149,14 +205,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "EnterVetInfoPopUp.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Kam\\Desktop\\OOP\\OOPLab\\Projekt-Programowanie-Obiektowe-Lab\\Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ\\EnterVetInfoPopUp.cs",
-              "RelativeDocumentMoniker": "Projekt-w69758-GL01-3IIZ\\EnterVetInfoPopUp.cs",
-              "ToolTip": "C:\\Users\\Kam\\Desktop\\OOP\\OOPLab\\Projekt-Programowanie-Obiektowe-Lab\\Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ\\EnterVetInfoPopUp.cs [Design]",
-              "RelativeToolTip": "Projekt-w69758-GL01-3IIZ\\EnterVetInfoPopUp.cs [Design]",
+              "DocumentIndex": 7,
+              "Title": "Animal.cs",
+              "DocumentMoniker": "C:\\Users\\Kam\\Desktop\\OOP\\OOPLab\\Projekt-Programowanie-Obiektowe-Lab\\Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ\\Models\\Animal.cs",
+              "RelativeDocumentMoniker": "Projekt-w69758-GL01-3IIZ\\Models\\Animal.cs",
+              "ToolTip": "C:\\Users\\Kam\\Desktop\\OOP\\OOPLab\\Projekt-Programowanie-Obiektowe-Lab\\Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ\\Models\\Animal.cs",
+              "RelativeToolTip": "Projekt-w69758-GL01-3IIZ\\Models\\Animal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T18:46:29.613Z"
+              "WhenOpened": "2025-02-19T17:25:20.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Owner.cs",
+              "DocumentMoniker": "C:\\Users\\Kam\\Desktop\\OOP\\OOPLab\\Projekt-Programowanie-Obiektowe-Lab\\Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ\\Models\\Owner.cs",
+              "RelativeDocumentMoniker": "Projekt-w69758-GL01-3IIZ\\Models\\Owner.cs",
+              "ToolTip": "C:\\Users\\Kam\\Desktop\\OOP\\OOPLab\\Projekt-Programowanie-Obiektowe-Lab\\Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ\\Models\\Owner.cs",
+              "RelativeToolTip": "Projekt-w69758-GL01-3IIZ\\Models\\Owner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T17:25:30.207Z",
+              "EditorCaption": ""
             }
           ]
         }

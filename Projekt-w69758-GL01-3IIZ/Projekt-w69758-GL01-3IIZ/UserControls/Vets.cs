@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Projekt_w69758_GL01_3IIZ.DbFunctionality;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -28,13 +29,13 @@ namespace Projekt_w69758_GL01_3IIZ
 
         private void AddVetButton_Click(object sender, EventArgs e)
         {
-            Form vetData = new EnterVetInfoPopUp();
+            Form vetData = new AddVetInfoPopUp();
             vetData.Show();
         }
 
         private void EditVetButton_Click(object sender, EventArgs e)
         {
-            Form vetData = new EnterVetInfoPopUp();
+            Form vetData = new AddVetInfoPopUp();
             vetData.Show();
         }
 

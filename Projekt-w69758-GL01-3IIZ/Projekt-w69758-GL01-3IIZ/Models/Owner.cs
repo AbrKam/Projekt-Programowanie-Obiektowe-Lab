@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Projekt_w69758_GL01_3IIZ.Models
 {
-    internal class Owner
+    public class Owner
     {
         public int Id { get; set; }
         public string? FirstName { get; set; } = "";

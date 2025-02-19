@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Projekt_w69758_GL01_3IIZ
+namespace Projekt_w69758_GL01_3IIZ.DbFunctionality
 {
     static class DbInitializer
     {

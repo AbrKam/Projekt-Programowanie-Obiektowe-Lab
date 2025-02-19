@@ -1,6 +1,6 @@
 ﻿namespace Projekt_w69758_GL01_3IIZ
 {
-    partial class Form1
+    partial class MainForm
     {
         /// <summary>
         ///  Required designer variable.

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Projekt_w69758_GL01_3IIZ
 {
-    public partial class EnterVetInfoPopUp : Form
+    public partial class AddVisitInfoPopUp : Form
     {
-        public EnterVetInfoPopUp()
+        public AddVisitInfoPopUp()
         {
             InitializeComponent();
         }

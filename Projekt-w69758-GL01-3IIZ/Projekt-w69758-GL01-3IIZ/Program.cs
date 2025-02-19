@@ -1,3 +1,5 @@
+using Projekt_w69758_GL01_3IIZ.DbFunctionality;
+
 namespace Projekt_w69758_GL01_3IIZ
 {
     internal static class Program
@@ -13,7 +15,7 @@ namespace Projekt_w69758_GL01_3IIZ
             ApplicationConfiguration.Initialize();
             DBManager dbContext = new DBManager();
             DbInitializer.Initialize(dbContext);
-            Application.Run(new Form1());
+            Application.Run(new MainForm());
         }
     }
 }

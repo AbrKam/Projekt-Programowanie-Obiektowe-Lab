@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Projekt_w69758_GL01_3IIZ.DbFunctionality;
 using Projekt_w69758_GL01_3IIZ.Models;
 
 namespace Projekt_w69758_GL01_3IIZ
@@ -32,13 +33,13 @@ namespace Projekt_w69758_GL01_3IIZ
 
         private void AddVisitButton_Click(object sender, EventArgs e)
         {
-            Form visitData = new EnterVisitInfoPopUp();
+            Form visitData = new AddVisitInfoPopUp();
             visitData.Show();
         }
 
         private void EditVisitButton_Click(object sender, EventArgs e)
         {
-            Form visitData = new EnterVisitInfoPopUp();
+            Form visitData = new AddVisitInfoPopUp();
             visitData.Show();
         }
 
