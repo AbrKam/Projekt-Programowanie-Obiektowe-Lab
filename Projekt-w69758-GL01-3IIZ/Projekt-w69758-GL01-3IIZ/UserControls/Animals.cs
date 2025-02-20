@@ -11,42 +11,51 @@ using System.Windows.Forms;
 using Microsoft.EntityFrameworkCore;
 using Projekt_w69758_GL01_3IIZ.Models;
 using Projekt_w69758_GL01_3IIZ.DbFunctionality;
+using Projekt_w69758_GL01_3IIZ.EditFunctionality;
 
 namespace Projekt_w69758_GL01_3IIZ
 {
     public partial class Animals : UserControl
     {
-        private DBManager _dBManager;
         public Animals()
         {
             InitializeComponent();
-            _dBManager = new DBManager();
         }
 
         private void Animals_Load(object sender, EventArgs e)
         {
-            LoadAnimalData(_dBManager);
+            using (DBManager dbContext = new DBManager()) 
+            {
+                LoadAnimalData(dbContext);
+            }
         }
 
         private void AddAnimalButton_Click(object sender, EventArgs e)
         {
-            AddAnimalInfoPopUp dataWindow = new AddAnimalInfoPopUp();
-            dataWindow.DataUpdated += () => RefreshDataGrid(_dBManager);
-            dataWindow.ShowDialog();   
+            using (DBManager dbContext = new DBManager()) 
+            {
+                AddAnimalInfoPopUp dataWindow = new AddAnimalInfoPopUp();
+                dataWindow.DataUpdated += () => RefreshDataGrid(dbContext);
+                dataWindow.ShowDialog();
+            }
         }
 
         private void EditAnimalButton_Click(object sender, EventArgs e)
         {
             if (AnimalDataGrid.SelectedRows.Count > 0)
             {
-                int selectedAnimalId = Convert.ToInt16(AnimalDataGrid.SelectedRows[0].Cells["Id"].Value);
-                Animal? animalToEdit = _dBManager.Animals
-                        .FirstOrDefault(o => o.Id == selectedAnimalId);
+                using (DBManager dbContext = new DBManager())
+                {
+                    int selectedAnimalId = Convert.ToInt16(AnimalDataGrid.SelectedRows[0].Cells["Id"].Value);
+                    Animal? animalToEdit = dbContext.Animals
+                            .FirstOrDefault(o => o.Id == selectedAnimalId);
 
-                Owner? ownerInfo = _dBManager.Owners.FirstOrDefault(o => o.Id == animalToEdit.Id);
+                    Owner? ownerInfo = dbContext.Owners.FirstOrDefault(o => o.Id == animalToEdit.OwnerId);
 
-                Form dataWindow = new AddAnimalInfoPopUp(animalToEdit, ownerInfo);
-                dataWindow.Show();
+                    EditAnimalInfoPopUp dataWindow = new EditAnimalInfoPopUp(animalToEdit, ownerInfo);
+                    dataWindow.DataUpdated += () => RefreshDataGrid(dbContext);
+                    dataWindow.ShowDialog();
+                }
             }
             else
             {

@@ -15,85 +15,74 @@ namespace Projekt_w69758_GL01_3IIZ
 {
     public partial class AddAnimalInfoPopUp : Form
     {
-        private DBManager _dbContext;
-        private Animal? _animal;
-        private Owner? _owner;
 
         public event Action? DataUpdated;
 
         public AddAnimalInfoPopUp()
         {
             InitializeComponent();
-            _dbContext = new DBManager();
-        }
-
-        public AddAnimalInfoPopUp(Animal animal, Owner owner)
-        {
-            InitializeComponent();
-            _dbContext = new DBManager();
-            _animal = animal;
-            _owner = owner;
-            LoadData();
         }
 
         private void EnterAnimalInfo_Click(object sender, EventArgs e)
         {
             try 
             {
-                Owner? existingOwner = _dbContext.Owners
-                        .FirstOrDefault(o => o.FirstName == OwnerFNameTextBox.Text 
-                                            && o.LastName == OwnerLNameTextBox.Text
-                                            && o.TelephoneNumber == OwnerTelNumber.Text);
-
-                if (existingOwner != null)
+                using (DBManager dbContext = new DBManager()) 
                 {
+                    Owner? existingOwner = dbContext.Owners
+                        .FirstOrDefault(o => o.FirstName == OwnerFNameTextBox.Text
+                                && o.LastName == OwnerLNameTextBox.Text
+                                && o.TelephoneNumber == OwnerTelNumber.Text);
 
-                    Animal animalToAdd = new Animal()
+                    if (existingOwner != null)
                     {
-                        Name = AnimalNameTextBox.Text,
-                        Breed = AnimalBreedTextBox.Text,
-                        Species = AnimalSepciesTextBox.Text,
-                        Age = Convert.ToInt16(AnimalAgeTextBox.Text),
-                        OwnerId = existingOwner.Id
-                    };
 
-                    _dbContext.Add<Animal>(animalToAdd);
-                    _dbContext.SaveChanges();
+                        Animal animalToAdd = new Animal()
+                        {
+                            Name = AnimalNameTextBox.Text,
+                            Breed = AnimalBreedTextBox.Text,
+                            Species = AnimalSepciesTextBox.Text,
+                            Age = Convert.ToInt16(AnimalAgeTextBox.Text),
+                            OwnerId = existingOwner.Id
+                        };
 
-                    MessageBox.Show("Animal info added successfully to the database.");
-                    DataUpdated?.Invoke();
-                    this.Close();
+                        dbContext.Add<Animal>(animalToAdd);
+                        dbContext.SaveChanges();
+
+                        MessageBox.Show("Animal info added successfully to the database.");
+                        DataUpdated?.Invoke();
+                        this.Close();
+                    }
+                    else
+                    {
+                        Owner animalOwner = new Owner()
+                        {
+                            FirstName = OwnerFNameTextBox.Text,
+                            LastName = OwnerLNameTextBox.Text,
+                            TelephoneNumber = OwnerNumberTextBox.Text,
+                            Email = OwnerEmailTextBox.Text
+                        };
+
+                        dbContext.Add<Owner>(animalOwner);
+                        dbContext.SaveChanges();
+
+                        Animal animalToAdd = new Animal()
+                        {
+                            Name = AnimalNameTextBox.Text,
+                            Breed = AnimalBreedTextBox.Text,
+                            Species = AnimalSepciesTextBox.Text,
+                            Age = Convert.ToInt16(AnimalAgeTextBox.Text),
+                            OwnerId = animalOwner.Id
+                        };
+
+                        dbContext.Add<Animal>(animalToAdd);
+                        dbContext.SaveChanges();
+
+                        MessageBox.Show("Animal info added successfully to the database.");
+                        DataUpdated?.Invoke();
+                        this.Close();
+                    }
                 }
-                else
-                {
-                    Owner animalOwner = new Owner()
-                    {
-                        FirstName = OwnerFNameTextBox.Text,
-                        LastName = OwnerLNameTextBox.Text,
-                        TelephoneNumber = OwnerNumberTextBox.Text,
-                        Email = OwnerEmailTextBox.Text
-                    };
-
-                    _dbContext.Add<Owner>(animalOwner);
-                    _dbContext.SaveChanges();
-
-                    Animal animalToAdd = new Animal()
-                    {
-                        Name = AnimalNameTextBox.Text,
-                        Breed = AnimalBreedTextBox.Text,
-                        Species = AnimalSepciesTextBox.Text,
-                        Age = Convert.ToInt16(AnimalAgeTextBox.Text),
-                        OwnerId = animalOwner.Id
-                    };
-
-                    _dbContext.Add<Animal>(animalToAdd);
-                    _dbContext.SaveChanges();
-
-                    MessageBox.Show("Animal info added successfully to the database.");
-                    DataUpdated?.Invoke();
-                    this.Close();
-                }
-
             }
             catch(Exception ex)
             {
@@ -101,16 +90,5 @@ namespace Projekt_w69758_GL01_3IIZ
             }
         }
 
-        private void LoadData()
-        {
-            if (_animal != null && _owner != null)
-            {
-                AnimalNameTextBox.Text = _animal.Name;
-            }
-            else
-            {
-                MessageBox.Show("Something went wrong; could not load data");
-            }
-        }
     }
 }
