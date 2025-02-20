@@ -65,27 +65,76 @@ namespace Projekt_w69758_GL01_3IIZ
 
         private void DeleteAnimalButton_Click(object sender, EventArgs e)
         {
-            //AnimalDataGrid.SelectedRows.
+            int animalId = Convert.ToInt16(AnimalDataGrid.SelectedRows[0].Cells["Id"].Value);
+
+            using (DBManager dbContext = new DBManager())
+            {
+                Animal? animalToDelete = dbContext.Animals.FirstOrDefault(o => o.Id == animalId);
+                if (animalToDelete != null)
+                {
+                    dbContext.Animals.Remove(animalToDelete);
+                    dbContext.SaveChanges();
+                    RefreshDataGrid(dbContext);
+                    MessageBox.Show("Animal deleted successfully.");
+                }
+                else
+                {
+                    MessageBox.Show("Could not find animal to delete in the database.");
+                }
+            }
         }
 
         private void LoadAnimalData(DBManager dbContext)
         {
-            var animals = dbContext.Animals.ToList();
+            //var animals = dbContext.Animals.ToList();
 
-            if (animals.Any())
+            var query = from a in dbContext.Animals
+                        join o in dbContext.Owners
+                        on a.Id equals o.Id
+                        select new
+                        {
+                            Id = a.Id,
+                            Name = a.Name,
+                            Breed = a.Breed,
+                            Species = a.Species,
+                            Age = a.Age,
+                            Owner = o.FirstName + " " + o.LastName,
+                            Email = o.Email,
+                            TelNumber = o.TelephoneNumber
+                        };
+            var dataToDisplay = query.ToList();
+
+            if (dataToDisplay.Any())
             {
-                AnimalDataGrid.DataSource = animals;
+                AnimalDataGrid.DataSource = dataToDisplay;
             }
             else
             {
-                MessageBox.Show("Brak danych zwierząt.");
+                MessageBox.Show("Could not retrieve any animal data from the database.");
             }
         }
 
         internal void RefreshDataGrid(DBManager dbContext)
         {
             AnimalDataGrid.DataSource = null;
-            AnimalDataGrid.DataSource = dbContext.Animals.ToList();
+            //AnimalDataGrid.DataSource = dbContext.Animals.ToList();
+            var query = from a in dbContext.Animals
+                        join o in dbContext.Owners
+                        on a.OwnerId equals o.Id
+                        select new
+                        {
+                            Id = a.Id,
+                            Name = a.Name,
+                            Breed = a.Breed,
+                            Species = a.Species,
+                            Age = a.Age,
+                            Owner = o.FirstName + " " + o.LastName,
+                            Email = o.Email,
+                            TelNumber = o.TelephoneNumber
+                        };
+
+            var dataToDisplay = query.ToList();
+            AnimalDataGrid.DataSource = dataToDisplay;
         }
     }
 }

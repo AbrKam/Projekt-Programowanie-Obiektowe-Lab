@@ -3,27 +3,27 @@
   "WorkspaceRootPath": "C:\\Users\\Kam\\Desktop\\OOP\\OOPLab\\Projekt-Programowanie-Obiektowe-Lab\\Projekt-w69758-GL01-3IIZ\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6434A89F-2D5C-4606-8B67-D940AC54FD97}|Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ.csproj|c:\\users\\kam\\desktop\\oop\\ooplab\\projekt-programowanie-obiektowe-lab\\projekt-w69758-gl01-3iiz\\projekt-w69758-gl01-3iiz\\usercontrols\\animals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6434A89F-2D5C-4606-8B67-D940AC54FD97}|Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ.csproj|solutionrelative:projekt-w69758-gl01-3iiz\\usercontrols\\animals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6434A89F-2D5C-4606-8B67-D940AC54FD97}|Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ.csproj|c:\\users\\kam\\desktop\\oop\\ooplab\\projekt-programowanie-obiektowe-lab\\projekt-w69758-gl01-3iiz\\projekt-w69758-gl01-3iiz\\addfunctionality\\addanimalinfopopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6434A89F-2D5C-4606-8B67-D940AC54FD97}|Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ.csproj|solutionrelative:projekt-w69758-gl01-3iiz\\addfunctionality\\addanimalinfopopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6434A89F-2D5C-4606-8B67-D940AC54FD97}|Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ.csproj|c:\\users\\kam\\desktop\\oop\\ooplab\\projekt-programowanie-obiektowe-lab\\projekt-w69758-gl01-3iiz\\projekt-w69758-gl01-3iiz\\editfunctionality\\editanimalinfopopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6434A89F-2D5C-4606-8B67-D940AC54FD97}|Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ.csproj|solutionrelative:projekt-w69758-gl01-3iiz\\editfunctionality\\editanimalinfopopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6434A89F-2D5C-4606-8B67-D940AC54FD97}|Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ.csproj|c:\\users\\kam\\desktop\\oop\\ooplab\\projekt-programowanie-obiektowe-lab\\projekt-w69758-gl01-3iiz\\projekt-w69758-gl01-3iiz\\editfunctionality\\editanimalinfopopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{6434A89F-2D5C-4606-8B67-D940AC54FD97}|Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ.csproj|c:\\users\\kam\\desktop\\oop\\ooplab\\projekt-programowanie-obiektowe-lab\\projekt-w69758-gl01-3iiz\\projekt-w69758-gl01-3iiz\\usercontrols\\animals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6434A89F-2D5C-4606-8B67-D940AC54FD97}|Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ.csproj|solutionrelative:projekt-w69758-gl01-3iiz\\usercontrols\\animals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6434A89F-2D5C-4606-8B67-D940AC54FD97}|Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ.csproj|C:\\Users\\Kam\\Desktop\\OOP\\OOPLab\\Projekt-Programowanie-Obiektowe-Lab\\Projekt-w69758-GL01-3IIZ\\projekt-w69758-gl01-3iiz\\editfunctionality\\editanimalinfopopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{6434A89F-2D5C-4606-8B67-D940AC54FD97}|Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ.csproj|solutionrelative:projekt-w69758-gl01-3iiz\\editfunctionality\\editanimalinfopopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6434A89F-2D5C-4606-8B67-D940AC54FD97}|Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ.csproj|c:\\users\\kam\\desktop\\oop\\ooplab\\projekt-programowanie-obiektowe-lab\\projekt-w69758-gl01-3iiz\\projekt-w69758-gl01-3iiz\\addfunctionality\\addanimalinfopopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6434A89F-2D5C-4606-8B67-D940AC54FD97}|Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ.csproj|solutionrelative:projekt-w69758-gl01-3iiz\\addfunctionality\\addanimalinfopopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6434A89F-2D5C-4606-8B67-D940AC54FD97}|Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ.csproj|c:\\users\\kam\\desktop\\oop\\ooplab\\projekt-programowanie-obiektowe-lab\\projekt-w69758-gl01-3iiz\\projekt-w69758-gl01-3iiz\\addfunctionality\\addanimalinfopopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{6434A89F-2D5C-4606-8B67-D940AC54FD97}|Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ.csproj|C:\\Users\\Kam\\Desktop\\OOP\\OOPLab\\Projekt-Programowanie-Obiektowe-Lab\\Projekt-w69758-GL01-3IIZ\\projekt-w69758-gl01-3iiz\\addfunctionality\\addanimalinfopopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{6434A89F-2D5C-4606-8B67-D940AC54FD97}|Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ.csproj|solutionrelative:projekt-w69758-gl01-3iiz\\addfunctionality\\addanimalinfopopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6434A89F-2D5C-4606-8B67-D940AC54FD97}|Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ.csproj|c:\\users\\kam\\desktop\\oop\\ooplab\\projekt-programowanie-obiektowe-lab\\projekt-w69758-gl01-3iiz\\projekt-w69758-gl01-3iiz\\usercontrols\\animals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{6434A89F-2D5C-4606-8B67-D940AC54FD97}|Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ.csproj|C:\\Users\\Kam\\Desktop\\OOP\\OOPLab\\Projekt-Programowanie-Obiektowe-Lab\\Projekt-w69758-GL01-3IIZ\\projekt-w69758-gl01-3iiz\\usercontrols\\animals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{6434A89F-2D5C-4606-8B67-D940AC54FD97}|Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ.csproj|solutionrelative:projekt-w69758-gl01-3iiz\\usercontrols\\animals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -54,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
@@ -82,7 +82,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "EditAnimalInfoPopUp.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Kam\\Desktop\\OOP\\OOPLab\\Projekt-Programowanie-Obiektowe-Lab\\Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ\\EditFunctionality\\EditAnimalInfoPopUp.cs",
               "RelativeDocumentMoniker": "Projekt-w69758-GL01-3IIZ\\EditFunctionality\\EditAnimalInfoPopUp.cs",
@@ -100,33 +100,33 @@
               "RelativeDocumentMoniker": "Projekt-w69758-GL01-3IIZ\\EditFunctionality\\EditAnimalInfoPopUp.cs",
               "ToolTip": "C:\\Users\\Kam\\Desktop\\OOP\\OOPLab\\Projekt-Programowanie-Obiektowe-Lab\\Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ\\EditFunctionality\\EditAnimalInfoPopUp.cs",
               "RelativeToolTip": "Projekt-w69758-GL01-3IIZ\\EditFunctionality\\EditAnimalInfoPopUp.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAEUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-20T16:12:30.234Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Animals.cs",
               "DocumentMoniker": "C:\\Users\\Kam\\Desktop\\OOP\\OOPLab\\Projekt-Programowanie-Obiektowe-Lab\\Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ\\UserControls\\Animals.cs",
               "RelativeDocumentMoniker": "Projekt-w69758-GL01-3IIZ\\UserControls\\Animals.cs",
               "ToolTip": "C:\\Users\\Kam\\Desktop\\OOP\\OOPLab\\Projekt-Programowanie-Obiektowe-Lab\\Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ\\UserControls\\Animals.cs",
               "RelativeToolTip": "Projekt-w69758-GL01-3IIZ\\UserControls\\Animals.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAcwDYAAABmAAAAAAAAAA==",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAgwHsAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-18T17:58:00.684Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "AddAnimalInfoPopUp.cs",
               "DocumentMoniker": "C:\\Users\\Kam\\Desktop\\OOP\\OOPLab\\Projekt-Programowanie-Obiektowe-Lab\\Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ\\AddFunctionality\\AddAnimalInfoPopUp.cs",
               "RelativeDocumentMoniker": "Projekt-w69758-GL01-3IIZ\\AddFunctionality\\AddAnimalInfoPopUp.cs",
               "ToolTip": "C:\\Users\\Kam\\Desktop\\OOP\\OOPLab\\Projekt-Programowanie-Obiektowe-Lab\\Projekt-w69758-GL01-3IIZ\\Projekt-w69758-GL01-3IIZ\\AddFunctionality\\AddAnimalInfoPopUp.cs",
               "RelativeToolTip": "Projekt-w69758-GL01-3IIZ\\AddFunctionality\\AddAnimalInfoPopUp.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAuwBYAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAkwBYAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-17T16:55:36.049Z",
               "EditorCaption": ""
@@ -141,8 +141,7 @@
               "RelativeToolTip": "Projekt-w69758-GL01-3IIZ\\MainForm.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T15:16:44.218Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-16T15:16:44.218Z"
             },
             {
               "$type": "Document",
@@ -154,8 +153,7 @@
               "RelativeToolTip": "Projekt-w69758-GL01-3IIZ\\DbFunctionality\\DBManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T14:08:31.715Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-09T14:08:31.715Z"
             },
             {
               "$type": "Document",

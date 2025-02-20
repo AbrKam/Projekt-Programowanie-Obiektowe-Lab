@@ -68,9 +68,6 @@ namespace Projekt_w69758_GL01_3IIZ.EditFunctionality
 
         private void LoadData()
         {
-            MessageBox.Show(_animal.ToString());
-            MessageBox.Show(_owner.ToString());
-
             if (_animal != null && _owner != null)
             {
                 AnimalNameTextBox.Text = _animal.Name;
